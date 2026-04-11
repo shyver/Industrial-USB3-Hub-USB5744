@@ -1,4 +1,4 @@
-27231429527996211
+27233204674726811
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107918,6 +107918,13 @@ Inductor_SDS74M-4R7M-LF
 0
 2
 2
+personal_library
+QFN50P450X250X100-21N
+
+
+0
+21
+21
 personal_library
 SODFL1060X40N
 
