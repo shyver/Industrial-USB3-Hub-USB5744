@@ -2335,6 +2335,12 @@
 		(uuid "5b6b9bee-44a2-45a5-ab08-3ff0ac63f060")
 	)
 	(junction
+		(at 140.97 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fd12736-13c9-4149-b10b-d574558ea148")
+	)
+	(junction
 		(at 101.6 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2522,6 +2528,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 58.42) (xy 140.97 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "191213a0-a7b5-4e74-b1e5-47c67af9e2c9")
+	)
+	(wire
+		(pts
 			(xy 109.22 149.86) (xy 109.22 154.94)
 		)
 		(stroke
@@ -2702,7 +2718,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 49.53) (xy 140.97 68.58)
+			(xy 140.97 49.53) (xy 140.97 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3022,6 +3038,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 48.26) (xy 177.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6f6261a-e8c0-4565-9a92-471af87d7ca8")
+	)
+	(wire
+		(pts
 			(xy 83.82 69.85) (xy 82.55 69.85)
 		)
 		(stroke
@@ -3059,6 +3085,16 @@
 			(type default)
 		)
 		(uuid "dc4ae116-2f47-4c36-a759-228135fadcf8")
+	)
+	(wire
+		(pts
+			(xy 144.78 48.26) (xy 144.78 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de41a781-59b1-41b0-8922-22696f7e6f30")
 	)
 	(wire
 		(pts
@@ -3132,6 +3168,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 58.42) (xy 140.97 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0778669-3bb2-447d-b96b-6b076273987b")
+	)
+	(wire
+		(pts
 			(xy 189.23 81.28) (xy 181.61 81.28)
 		)
 		(stroke
@@ -3159,6 +3205,16 @@
 			(type default)
 		)
 		(uuid "f4dfaa7a-755a-4742-8e42-f23bcdd74df8")
+	)
+	(wire
+		(pts
+			(xy 152.4 48.26) (xy 144.78 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56891e0-cb05-4400-8c99-db3ecb4fdcac")
 	)
 	(wire
 		(pts
@@ -3572,7 +3628,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 87.63 71.628 90)
 			(effects
 				(font
@@ -3749,6 +3805,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 177.8 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76a27595-f002-4f57-bd3d-cc688d659f3e")
+		(property "Reference" "#PWR028"
+			(at 177.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 177.8 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 177.8 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5554aa11-7e2d-4a02-aef5-8cff0332b058")
+		)
+		(instances
+			(project "industrial_usb_hub"
+				(path "/2bdf928d-3bff-4ef5-bf26-63be25952cbb/ec29b23b-c3a8-42f0-ad46-1515655c12cf"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 105.41 163.83 90)
 		(unit 1)
@@ -3773,7 +3895,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 105.41 165.608 90)
 			(effects
 				(font
@@ -4184,6 +4306,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 156.21 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5a71491-b515-4df2-a6c2-a0c88e039c05")
+		(property "Reference" "R24"
+			(at 156.21 42.926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 156.21 45.466 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 156.21 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 156.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "800565ce-9a4c-4036-af21-56f890249c3f")
+		)
+		(pin "2"
+			(uuid "831a5035-dd3d-4e28-ac06-7e4ac2b76f02")
+		)
+		(instances
+			(project "industrial_usb_hub"
+				(path "/2bdf928d-3bff-4ef5-bf26-63be25952cbb/ec29b23b-c3a8-42f0-ad46-1515655c12cf"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 125.73 20.32 0)
 		(unit 1)
@@ -4341,7 +4530,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "personal_library:BELFUSE_SS-52400-003"
 			(at 113.03 109.22 0)
 			(effects
 				(font
