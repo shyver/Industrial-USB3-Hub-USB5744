@@ -1507,25 +1507,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 23.86 0)
+			(property "Reference" "U2"
+				(at 0 27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Value" "HD3SS3212IRKSR"
-				(at -12.7 -26.86 0)
+				(at 0 25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "HD3SS3212IRKSR:QFN50P450X250X100-21N"
+			(property "Footprint" "personal_library:QFN50P450X250X100-21N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1980,63 +1978,6 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 -12.7 180)
-					(length 5.08)
-					(hide yes)
-					(name "EXP"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "21_1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -12.7 180)
-					(length 5.08)
-					(hide yes)
-					(name "EXP"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "21_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -12.7 180)
-					(length 5.08)
-					(hide yes)
-					(name "EXP"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "21_3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 17.78 -15.24 180)
 					(length 5.08)
 					(hide yes)
@@ -2085,6 +2026,65 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HD3SS3212IRKSR_1_0"
+				(pin power_in line
+					(at 17.78 -12.7 180)
+					(length 5.08)
+					(hide yes)
+					(name "EXP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -12.7 180)
+					(length 5.08)
+					(hide yes)
+					(name "EXP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -12.7 180)
+					(length 5.08)
+					(hide yes)
+					(name "EXP"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3236,6 +3236,86 @@
 		)
 		(uuid "fc4ebbb1-61e6-4a52-ac3d-d32ed8b7fedb")
 	)
+	(label "RX1_P"
+		(at 128.27 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51b0c3fe-8fe0-4281-a5b8-857d9c973f65")
+	)
+	(label "TX2_N"
+		(at 128.27 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c34511e-823e-4c1b-b2a4-1f06124587c5")
+	)
+	(label "TX1_N"
+		(at 128.27 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "936f966b-1afc-45e1-be65-484996da9a34")
+	)
+	(label "TX2_P"
+		(at 128.27 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a71f74b1-7ac0-43ef-88fb-0eeec6a97d3d")
+	)
+	(label "TX1_P"
+		(at 128.27 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6bcdbb5-0dd3-4aab-b425-18932ab50036")
+	)
+	(label "RX1_N"
+		(at 128.27 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d65f3add-30e4-4a35-8cb5-39183bafbb3b")
+	)
+	(label "RX2_N"
+		(at 151.13 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9f66f95-252f-4c7f-a21c-7ffcbe5eb66a")
+	)
+	(label "RX2_P"
+		(at 151.13 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fac43072-afab-4bf2-b092-3e5ca729cdd3")
+	)
 	(hierarchical_label "UP_D_P"
 		(shape bidirectional)
 		(at 128.27 102.87 0)
@@ -3480,7 +3560,7 @@
 		(pin "16"
 			(uuid "b378fd4b-0873-4071-91f8-acd223b6fd93")
 		)
-		(pin "21_3"
+		(pin "21"
 			(uuid "b5590d15-9126-4f77-b7b7-7b2283ab104b")
 		)
 		(pin "11"
@@ -3501,7 +3581,7 @@
 		(pin "12"
 			(uuid "0cd9d291-d75b-4430-80d5-2987baa51a82")
 		)
-		(pin "21_1"
+		(pin "21"
 			(uuid "1bb7a46c-2b4a-483f-ad7a-ab09322f7791")
 		)
 		(pin "19"
@@ -3525,7 +3605,7 @@
 		(pin "17"
 			(uuid "c44b9793-197b-40bc-ac40-c05170d37074")
 		)
-		(pin "21_2"
+		(pin "21"
 			(uuid "ca445c67-4d0a-4a00-9ae5-8a90461b9494")
 		)
 		(instances

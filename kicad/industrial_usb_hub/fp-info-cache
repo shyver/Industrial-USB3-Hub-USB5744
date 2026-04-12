@@ -1,4 +1,4 @@
-27233204674726811
+27249186255955045
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71805,6 +71805,27 @@ Yellow 5381 Series LED
 0
 2
 2
+MP2393GTL-P
+SOT583_MP2393
+
+MP2393GTL-P 
+0
+8
+8
+MP2393GTL-P
+SOT583_MP2393-L
+
+MP2393GTL-P 
+0
+8
+8
+MP2393GTL-P
+SOT583_MP2393-M
+
+MP2393GTL-P 
+0
+8
+8
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -107912,12 +107933,40 @@ Varistor VF
 2
 2
 personal_library
+403I35D25M00000
+403I35D25M00000-1
+Crystal or Oscillator
+0
+4
+4
+personal_library
+BELFUSE_SS-52400-003
+
+
+0
+32
+32
+personal_library
 Inductor_SDS74M-4R7M-LF
 
 
 0
 2
 2
+personal_library
+MOLEX_48393-0003
+<b>MOLEX 48393-0003</b><a href="https://www.molex.com/pdm_docs/sd/483930003_sd.pdf">Datasheet</a>
+
+0
+13
+13
+personal_library
+QFN40P700X700X100-57N
+
+
+0
+57
+57
 personal_library
 QFN50P450X250X100-21N
 
@@ -107932,6 +107981,20 @@ SODFL1060X40N
 0
 2
 2
+personal_library
+SOT23-5
+<b>5-Lead Small Outline Transistor</b> Package SOT-23<p>Source: http://www.analog.com/UploadedFiles/Data_Sheets/346131962AD8067_a.pdf
+
+0
+5
+5
+personal_library
+USB5744-I_2G
+
+
+0
+57
+57
 personal_library
 USB5744-QFN40P700X700X100-57N
 

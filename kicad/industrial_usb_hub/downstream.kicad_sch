@@ -3290,7 +3290,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "personal_library:MOLEX_48393-0003"
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48393-001"
 			(at 194.31 74.93 0)
 			(effects
 				(font
@@ -3587,7 +3587,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "personal_library:MOLEX_48393-0003"
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48393-001"
 			(at 148.59 163.83 0)
 			(effects
 				(font
@@ -5606,7 +5606,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "personal_library:MOLEX_48393-0003"
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48393-001"
 			(at 194.31 116.84 0)
 			(effects
 				(font
@@ -6133,7 +6133,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "personal_library:MOLEX_48393-0003"
+		(property "Footprint" "Connector_USB:USB3_A_Molex_48393-001"
 			(at 195.58 33.02 0)
 			(effects
 				(font
