@@ -3841,6 +3841,26 @@
 		)
 		(uuid "3bf18555-e9ea-4ee2-989c-1ebf6f692fa1")
 	)
+	(label "USB3UP_TXD_N"
+		(at 83.82 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45c9ba92-6de5-4066-bf25-b62ca927779b")
+	)
+	(label "DN_TX_P4"
+		(at 180.34 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "497a8249-116b-4dd4-b500-57f076295be8")
+	)
 	(label "SPI_CLK"
 		(at 74.93 158.75 180)
 		(effects
@@ -3880,6 +3900,26 @@
 			(justify right bottom)
 		)
 		(uuid "8963ccd8-9e95-465d-8e82-e066e715b7c9")
+	)
+	(label "DN_TX_N4"
+		(at 180.34 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3913d8b-3710-4d75-9354-091aad2481ec")
+	)
+	(label "USB3UP_TXD_P"
+		(at 83.82 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d089c1d6-ea12-418a-b186-83c064eb9588")
 	)
 	(label "SPI_CLK"
 		(at 100.33 82.55 180)
